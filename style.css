@@ -1,0 +1,124 @@
+/* Importar fonte */
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+/* Não sei pra que serve isso ainda */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body{
+    background-color: green;
+}
+
+
+/* Aqui entra o cabeçalho */
+
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+header h1{
+    text-align: center;
+    color: #25272e;
+    font-family: Asap, sans-serif;
+}
+
+/* Borda da pontuação */
+
+.pontuacao{
+    border: 3px solid black;
+    width: 200px;
+    margin: 20px auto;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+
+
+.badge{
+    background-color: #E2584d;
+    font-size: 14px;
+}
+
+#telavoce{
+    position: absolute;
+    top: 45px;
+    left: -30px;
+}
+
+#telamaquina{
+    position: absolute;
+    top: 45px;
+    left: 180px;
+}
+
+.pontos{
+    font-size: 50px;
+    color: black;
+}
+
+.result{
+    font-size: 27px;
+    text-align: center;
+    font-family: Asap, sans-serif;
+    color: white;
+
+    font-weight: bold;
+}
+
+.escolhas{
+    text-align: center;
+    margin: 30px 0;
+    
+    
+
+
+    
+}
+
+.escolha{
+    display: inline-block;
+    
+    border: 4px solid black;
+    border-radius: 50%;
+    margin: 0 20px;
+    
+    
+    
+    
+}
+
+
+.escolha img{
+    width: 100px;
+    margin: 40px;
+    
+    
+}
+
+.escolhas :hover{
+    cursor: pointer;
+    background: #24272e;
+    transition: all 0.3s ease;
+}
+
+#suaescolha{
+    text-align: center;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-size: 23px;
+}
+
